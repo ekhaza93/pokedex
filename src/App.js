@@ -7,10 +7,9 @@ import Detail from './pages/Detail';
 
 const App = () => {
   return (
-
     <Router>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route element={<Home/>}/>
         <Route path='*' element={<NotFound/>}/>       
         <Route path='/pokemon/:name' element={<Detail/>}/>
       </Routes>

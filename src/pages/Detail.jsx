@@ -7,7 +7,7 @@ const Detail = () => {
     return(
         <>
         <div className='App'>
-            <Title judul={"Pokedex Detail"}/>
+            <Title judul={"Pokemon Detail"}/>
             <DetailData name={name}></DetailData>
         </div>
         </>
